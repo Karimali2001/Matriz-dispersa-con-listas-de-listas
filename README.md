@@ -2,6 +2,11 @@
 matriz dispersa almacenada con lista de listas
 **************************************************************
 Ejecutar en linux colocando en el terminal 
-make proy1
-./proy1
+	gcc -o matrix matriz.c proy1.c 
+ 	./matrix
 *************************************************************
+Para ejecutar en windows:
+1.solo descargar matriz.c y proy1.c
+2.transformar matriz.c a matriz.h
+3.quitar el #include "matriz.h" de matriz.c 
+4. ejecutar
