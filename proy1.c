@@ -32,7 +32,7 @@ int main(){
         case 2:
             printf("Ingrese la fila, la columna y el elemento que desea asignar en la matriz\n");
             scanf("%i %i %i", &i, &j, &x);
-            AsignarElemento(M1,i,j,x);
+            M1=AsignarElemento(M1,i,j,x);
         break; 
         case 3:
             printf("Ingrese la segunda matriz\n\n");
